@@ -9,7 +9,10 @@ int main(){
 
     printf("The three numbers are: %i, %i, %i", num[0], num[1], num[2]);
     for (i = 0; i<3; ++i){
-        if (num[i] > num[i-1]){
+        if (num[i-1] > num[i]){
+            large = num[i-1];
+        }
+        else{
             large = num[i];
         }
     }
