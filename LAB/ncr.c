@@ -20,10 +20,10 @@ int fact(int num){
         return (k);
     }
     else{
-        for (i=0; i<=num; ++i){
+        for (i=1; i<=num; ++i){
             k = k*i;
         }
-        
+        return (k);
     }
-    return (k);
+    
 }
