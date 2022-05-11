@@ -11,7 +11,7 @@ int main(){
     printf("Enter the value of r: ");
     scanf("%d", &r);
     ncr = fact(n) / (fact(r) * fact(n - r));
-    printf("\nValue of %dC%d is: %d", n, r, ncr);
+    printf("Value of %dC%d is: %d", n, r, ncr);
 }
 
 int fact(int num){
