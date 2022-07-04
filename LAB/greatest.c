@@ -1,9 +1,9 @@
 #include<stdio.h> 
 void main() 
 { 
-int i,j,k; 
+int a,b,c; 
 printf("Enter three no.\n"); 
-scanf("%d%d%d",&i,&j,&k); 
-int re=(i>j)?((i>k)?i:k):((j>k)?j:k); 
+scanf("%d%d%d",&a,&b,&c); 
+int re=(a>b)?((a>c)?a:c):((b>c)?b:c); 
 printf("greatest number=%d",re); 
 }

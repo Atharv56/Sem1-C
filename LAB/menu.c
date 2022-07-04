@@ -5,7 +5,7 @@ int main(){
     int a, b;
     printf("Enter the sign of the function\n");
     scanf("%c", &sign);
-    printf("Enter two numbers: ")
+    printf("Enter two numbers: ");
     scanf("%i %i", &a, &b);
     switch (sign)
     {

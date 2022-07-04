@@ -1,7 +1,7 @@
 #include<stdio.h> 
 int main()
 {
-    int ch='A'; //ASCII character
+    char ch='A'; //ASCII character
     int i,j,k,m;
     for(i=1;i<=5;i++)//rows
     {
